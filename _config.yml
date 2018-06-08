@@ -266,7 +266,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: true
-      share: true
-      related: false
-      classes: wide
+      #comments: true
+      #share: true
+      #related: false
+      #classes: wide
