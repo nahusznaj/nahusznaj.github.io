@@ -133,9 +133,11 @@ author:
 
 
 # Reading Files
-include:
-  - .htaccess
+#include:
+  #- .htaccess
   - _pages
+include:
+  ["_pages"]
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -266,7 +268,14 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      #comments: true
-      #share: true
-      #related: false
-      #classes: wide
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
