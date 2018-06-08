@@ -16,8 +16,6 @@ image:
 2018-06-08-output_81_1
 2018-06-08-output_90_1
 2018-06-08-output_96_1
-#  header: 2018-03-25-name_similarity.png
-#  teaser: 2018-03-25-name_similarity.png
 ---
 
 # Exploratory analysis on distribution of scholarships
