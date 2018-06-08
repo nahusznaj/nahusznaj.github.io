@@ -133,11 +133,10 @@ author:
 
 
 # Reading Files
-#include:
-  #- .htaccess
-  - _pages
 include:
-  ["_pages"]
+  - .htaccess
+  - _pages
+  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
