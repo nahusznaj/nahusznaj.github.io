@@ -430,7 +430,7 @@ fig.suptitle("Scholarship 2013-2018", y =1.1, fontsize=16)
 
 
 
-![png](2018-06-08-output_44_1.png)
+![png](/images/2018-06-08-output_44_1.png)
 
 
 While there was an increase in awards in 2018 compared with 2018, the success rate still decreased! This is because the number of applications in that same period change a lot more.
