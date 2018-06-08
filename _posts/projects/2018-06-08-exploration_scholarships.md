@@ -20,8 +20,6 @@ image:
 #  teaser: 2018-03-25-name_similarity.png
 ---
 
-
-
 # Exploratory analysis on distribution of scholarships
 
 This is an exploration on distribution of scholarships. The data is not publicly available and I have created fantasy labels/names to keep the results anonymised.
@@ -44,13 +42,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 ```
 
-
 ```python
 xl = pd.ExcelFile("scholarships_data_file.xls")
 
 df = xl.parse("Sheet1")
 ```
-
 
 ```python
 df.info()
@@ -595,7 +591,7 @@ plt.text(-13, -4, "Source: Council. May 2018.", fontsize=19)
 
 
 
-![png](2018-06-08-output_53_1.png)
+![png](/images/2018-06-08-output_53_1.png)
 
 
 How to analyse this? This plot allows us to easily recognise which primary areas are more populated, and how they change compared to themselves in time and how they are compared with other primary areas.
@@ -745,7 +741,7 @@ plt.text(-4, -5, "Note: a small number of applicants identified their gender as 
 
 
 
-![png](2018-06-08-output_63_1.png)
+![png](/images/2018-06-08-output_63_1.png)
 
 
 - This pie chart shows that both the number of applications and awards is relatively balanced between Gender 1 and 2.
@@ -865,7 +861,7 @@ plt.text(-5.2, -5, "Note: a small number of applicants identified their the gend
 
 
 
-![png](2018-06-08-output_66_1.png)
+![png](/images/2018-06-08-output_66_1.png)
 
 
 - Compared with the pie chart, we can appreciate better how gender 1 performs better than 2.
@@ -974,7 +970,7 @@ fig.suptitle("Scholarship 2013-2018", y =1.1, fontsize=19)
 
 
 
-![png](2018-06-08-output_72_1.png)
+![png](/images/2018-06-08-output_72_1.png)
 
 
 I really like these plots. They show even clearer than previous attempts, how the genders perform.
@@ -1142,7 +1138,7 @@ plt.text(-73,7,"Source: Council. May 2018.", fontsize=15)
 
 
 
-![png](2018-06-08-output_81_1.png)
+![png](/images/2018-06-08-output_81_1.png)
 
 
 Here one can identify trends on number of applications and number of awards.
@@ -1282,7 +1278,7 @@ plt.text(-13, 6, "Source: Council. May 2018.", fontsize=16)
 
 
 
-![png](2018-06-08-output_90_1.png)
+![png](/images/2018-06-08-output_90_1.png)
 
 
 The idea here is similar to how to read the earlier plot that has information on primary area across time.
@@ -1479,7 +1475,7 @@ ax6.legend(handles, labels, loc=(2,0.7), fontsize=14)
 
 
 
-![png](2018-06-08-output_96_1.png)
+![png](/images/2018-06-08-output_96_1.png)
 
 
 In the previous plot, I deliberately changed the labels in legend in order to mask the data. This may be wrong, but this is just a post to show the type of exploratory analysis I carried out.
