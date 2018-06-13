@@ -7,15 +7,6 @@ tags: [python, pandas, matplotlib]
 comments: true
 share: true
 read_time: true
-image:
-2018-06-08-output_44_1
-2018-06-08-output_53_1
-2018-06-08-output_63_1
-2018-06-08-output_66_1
-2018-06-08-output_72_1
-2018-06-08-output_81_1
-2018-06-08-output_90_1
-2018-06-08-output_96_1
 ---
 
 # Exploratory analysis on distribution of scholarships
