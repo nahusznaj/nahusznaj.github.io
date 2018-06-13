@@ -1,12 +1,4 @@
 # main links
 main:
-  - title: "Portfolio"
-    url: /pages/portfolio/
-#  - title: "About"
- #    url: /about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "portfolio"
+    url: /portfolio/
