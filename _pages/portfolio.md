@@ -1,10 +1,11 @@
 ---
 layout: archive
 permalink: portfolio/
-date: 2018-06-06
-modified: 2018-06-07
+date: 2018-02-18
+modified: 2018-03-25
 excerpt: "Projects big and small I've been working on"
 ---
+
 <div>
 {% for post in site.categories.projects %}
   {% include post-grid.html %}
