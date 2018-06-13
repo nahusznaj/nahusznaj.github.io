@@ -257,7 +257,7 @@ compress_html:
     envs: development
 
 
-# Defaults
+# # Defaults
 defaults:
   # _pages
   - scope:
@@ -267,14 +267,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
       comments: true
       share: true
-      related: true
+      related: false
+      classes: wide
