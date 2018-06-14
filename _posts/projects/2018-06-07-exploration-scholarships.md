@@ -11,7 +11,7 @@ read_time: true
 
 This is an exploration on distribution of scholarships. The data is not publicly available and I have created fantasy labels/names to mask sensitive information.
 
-Throughout the analysis, I have not shown any head() or sample() so the content of the data remains unknown.
+Throughout the analysis, I have not shown any `head()` or `sample()` so the content of the data remains unknown.
 
 The data-set includes applications for a scholarship. Each row is an application and includes information such as an applications ID, the name of the applicant, the discipline of the proposed research project, the host university, the project title, and, crucially, the status of the application: whether it is successful or not.
 
@@ -19,7 +19,7 @@ The idea of this analysis is to visualise how the scholarships are distributed a
 
 ## Cleaning the data
 
-First, I'll import the libraries that I need, and then I will import the data from the excel file.
+First, I will import the libraries that I need, and then I will import the data from the excel file.
 
 
 ```python
@@ -85,7 +85,7 @@ _Unnamed: 9:_ This is a glitch in the data mining process that I can easily fix:
 df.drop('Unnamed: 9', axis = 1, inplace = True)
 ```
 
-Now, looking again at df.info(), we see that there are two entries without a sub-discipline. The dataset has missing values, but the actual application (submitted in print or though a web-platform) does have a value. So in this case, I need to see in detail those entries to find out what are and fill out the empty cell.
+Now, looking again at `df.info()`, we see that there are two entries without a sub-discipline. The dataset has missing values, but the actual application (submitted in print or though a web-platform) does have a value. So in this case, I need to see in detail those entries to find out what are and fill out the empty cell.
 
 ```python
 np.where(pd.isnull(df['Sub Discipline']))
@@ -178,7 +178,6 @@ There are many sub-disciplines. In this exploratory analysis I will only conside
 df.info()
 ```
 
-    <class 'pandas.core.frame.DataFrame'>
     RangeIndex: 6584 entries, 0 to 6583
     Data columns (total 9 columns):
     Year                                            6584 non-null object
@@ -255,8 +254,7 @@ len(df.Status.unique())
 
 
 
-Now I want to create a dataframe that includes all the project that I consider as successful and one for the unsuccessful:
-
+Now I want to create one dataframe that includes all the projects that I consider as successful and one dataframe for the unsuccessful projects:
 
 This will classify all of the data into two groups, because it is a first approach.
 
@@ -282,7 +280,7 @@ The success rate is crucial and I will use it in many different ways: what's the
 
 ### Distribution of total applications, awards and the success rate per year
 
-First, I would like to plot for each year the total number of applications (successful and unsuccessful), awards and the associated success rate. This will give a first impression of the distribution of scholarships. Subsequent analysis shall be comapred against this one in order to draw stronger conclusions.
+First, I would like to plot for each year the total number of applications (successful and unsuccessful), awards and the associated success rate. This will give a first impression of the distribution of scholarships. Subsequent analysis shall be compared against this one in order to draw stronger conclusions.
 
 
 
