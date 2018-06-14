@@ -9,19 +9,17 @@ share: true
 read_time: true
 ---
 
-# Exploratory analysis on distribution of scholarships
+This is an exploration on distribution of scholarships. The data is not publicly available and I have created fantasy labels/names to mask sensitive information.
 
-This is an exploration on distribution of scholarships. The data is not publicly available and I have created fantasy labels/names to keep the results anonymised.
+Throughout the analysis, I have not shown any head() or sample() so the content of the data remains unknown.
 
-The data-set includes each application for a scholarship. Each application has information such as an applications ID, the name of the applicant, the discipline of the proposed research project, the host university, the project title, and, crucially, the status of the application: whether it is successful or not.
+The data-set includes applications for a scholarship. Each row is an application and includes information such as an applications ID, the name of the applicant, the discipline of the proposed research project, the host university, the project title, and, crucially, the status of the application: whether it is successful or not.
 
 The idea of this analysis is to visualise how the scholarships are distributed across disciplines and universities.
 
 ## Cleaning the data
 
 First, I'll import the libraries that I need, and then I will import the data from the excel file.
-
-Throughout the analysis, I have not shown any df.head() or df.sample() so the content of the data remains unknown, because I want to keep the data anonymised.
 
 
 ```python
@@ -33,15 +31,12 @@ import seaborn as sns
 
 ```python
 xl = pd.ExcelFile("scholarships_data_file.xls")
-
 df = xl.parse("Sheet1")
 ```
 
 ```python
 df.info()
 ```
-
-    <class 'pandas.core.frame.DataFrame'>
     RangeIndex: 6584 entries, 0 to 6583
     Data columns (total 10 columns):
     Project ID                                      6584 non-null object
@@ -60,70 +55,42 @@ df.info()
 
 So, let's see what these columns are:
 
-_Project ID_
+_Project ID:_ Each application has an ID saved in the column `Project ID` in the format: `Scheme Code/YEAR/Application number`, this identifies each application.
 
-Each application is labeled with an ID, saved in the column Project ID in the format: `Scheme Code/YEAR/Application number`, this identifies each application.
-
-This is useful because in the assessment process each application remains anonymous. For my purposes, all I want from this feature is the year in which it was submitted.
+This is useful for keeping anonymity in a fair review/assessment process. For my purposes, all I want from `Project ID` is the year in which the application was submitted.
 
 I will convert this into Year shortly.
 
 
-_Applicant_
+_Applicant:_ This is the name of the applicant.
 
-This is the name of the applicant.
+_Gender:_ The applicant's gender. The options are Female, Male or Other. As I will show below, only a very few people identified as other.
 
-_Gender_
+_Status:_ Because the data includes previous rounds of the funding scheme, there are "past award holders", that is successful people that obtained the scholarship in previous years. Currently successful candidates are "conditional award", and there are other further values for status. In a first approach I will take just two groups: successful and unsuccessful applications.
 
-The applicant's gender. The options are Female, Male or Other. As I will show below, only a very few people identified as other.
+_Institution:_ Which higher education institution is the proposed project going to be held.
 
-_Status_
+_Primary area:_ This is a set of broad disciplines, such as computer sciences or study of the human past.
 
-Because the data includes previous rounds of the funding scheme, there are "past award holders", that is successful people that obtained the scholarship in previous years. Currently successful candidates are "conditional award", and there are other further values for status. In a first approach I will take just two groups: successful and unsuccessful applications.
+_Sub discipline:_ This is a specific discipline, such as history, archeology or molecular biology.
 
-_Institution_
+_Second categorisation... :_ Some projects may be inter-/multi- disciplinary, and this column has other related disciplines (that may be from the same primary area than the main discipline or not). I will ignore this for now.
 
-Which higher education institution is the proposed project going to be held.
+_Project title:_ This is the title for the proposed project.
 
-_Primary area_
-
-This is a set of broad disciplines, such as computer sciences or study of the human past.
-
-_Sub discipline_
-
-This is a specific discipline, such as history, archeology or molecular biology.
-
-_Second categorisation... _
-
-Some projects may be inter-/multi- disciplinary, and this column has other related disciplines (that may be from the same primary area than the main discipline or not). I will ignore this for now.
-
-_Project title_
-
-This is the title for the proposed project.
-
-_Unnamed: 9_
-
-This is a glitch in the data mining process.
-
-Due to a glitch in the mining data process, there's an unnamed column that is empty. I will just delete it.
+_Unnamed: 9:_ This is a glitch in the data mining process that I can easily fix:
 
 
 ```python
 df.drop('Unnamed: 9', axis = 1, inplace = True)
 ```
 
-from df.info() we see that two entries do not have a sub-discipline. This is important. The dataset has missing values, but the actual application (submitted in print or though a web-platform) will have a value. So in this case, I need to see in detail those entries to find out what are and fill out the empty cell.
-
+Now, looking again at df.info(), we see that there are two entries without a sub-discipline. The dataset has missing values, but the actual application (submitted in print or though a web-platform) does have a value. So in this case, I need to see in detail those entries to find out what are and fill out the empty cell.
 
 ```python
 np.where(pd.isnull(df['Sub Discipline']))
 ```
-
-
-
-
     (array([1425, 2900], dtype=int64),)
-
 
 
 Looking at those specific applications, I figure out the right value and fill out the dataframe:
