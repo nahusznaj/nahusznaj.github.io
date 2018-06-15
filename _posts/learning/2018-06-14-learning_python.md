@@ -38,3 +38,14 @@ for row in rows:
 ```
 
 There's more information in [Python's doc site](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
+
+
+### Lists and indexing in Python
+
+Python counts from 0 on. So a list
+
+` A = ['a','b','c','d','e']`,
+
+has 5 elements. The first element of `A` is `A[0] = 'a'`.
+
+The last element of `A` is `A[4] = 'e'`. If I wanted to use `len` to get the last element, the correct way to get `'e'` would be `A[len(A) - 1]`. This is because `len(A) = 5` and `A[5]` does not exist.
