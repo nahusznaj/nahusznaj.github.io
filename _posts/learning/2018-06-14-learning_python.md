@@ -48,4 +48,6 @@ Python counts from 0 on. So a list
 
 has 5 elements. The first element of `A` is `A[0] = 'a'`.
 
-The last element of `A` is `A[4] = 'e'`. If I wanted to use `len` to get the last element, the correct way to get `'e'` would be `A[len(A) - 1]`. This is because `len(A) = 5` and `A[5]` does not exist.
+The last element of `A` is `A[4] = 'e'`. If I wanted to use `len` to get the last element, I could try  `A[len(A)]`, but `len(A) = 5` and `A[5]` does not exist. The correct way to get `'e'` would be `A[len(A) - 1]`.
+
+Now, to run through the elements of a list, you can use `list[start : end]`. But there's a trick: it will start from the `start` and it will stop ona place before `last`. So this will cover `list[0], list[1], list[2], ... , list[end-1]`. That is why if you'd like to print the first 3 elements of `A`, the right code is `print(A[0:3])`. This takes: the elements `0, 1, 2` from `A`. If you run `A[0:2]` you will get `A[0], A[1] = 'a', 'b'`.
