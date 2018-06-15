@@ -14,9 +14,9 @@ I'm doing online courses to train myself to become a data scientist. Everything 
 
 So, in this post I want to keep a record of inspiring, useful pages from other coders around the world. I'm happy to hear suggestions for new sources of information, please get in touch.
 
-- I signed up for [Codewars](https://www.codewars.com/). This is really useful and fun. You get challenges and you can see how other people solved them, so it's a nice way to learn better coding practices.
+- I signed up for [Codewars](https://www.codewars.com/). This is really useful and fun. You get coding challenges and you can see how other people solved them, so it's a nice way to learn better coding practices.
 
-- I bought this book: [Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do) by William McKinney, which is recommended in the pandas section in [StakOverflow](https://stackoverflow.com/tags/pandas/info). [McKinney](https://twitter.com/wesmckinn) is one of the creators of pandas.
+- I'm reading the book [Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do) by William McKinney, which is recommended in the pandas section in [StakOverflow](https://stackoverflow.com/tags/pandas/info). [McKinney](https://twitter.com/wesmckinn) is one of the creators of pandas.
 
 
 - Fede Barabas. Most of what I learn comes from talking with [Fede](https://fedebarabas.github.io/).
