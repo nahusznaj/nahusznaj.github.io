@@ -19,7 +19,7 @@ Here I want to post some general python commands that I usually use and often fo
 
 Say that you have a database `file.csv` with comma and line separated values. For example
 
-`A, 1`
+`A,1`
 `B,2`
 `C,3`
 
