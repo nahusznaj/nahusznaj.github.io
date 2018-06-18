@@ -2,7 +2,7 @@
 layout: article
 title: Learning sources
 categories: learning
-modified: 2016-06-14T16:28:11-04:00
+modified: 2018-06-14T16:28:11-04:00
 tags: [python, learning]
 comments: true
 share: true
