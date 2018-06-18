@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Some tricks I want to keep in mind
+title: Some tricks I want to keep in mind (Pandas)
 categories: learning
 modified: 2016-06-14T16:28:11-04:00
 tags: [python, pandas, matplotlib, seaborn]
