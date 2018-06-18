@@ -20,22 +20,21 @@ I recently learned how to create/clone/download/edit repositories in git/github.
 
 3. Initialise a git bash in the local directory and run:
 
+  `$ git init`
 
-`$ git init`
+  `$ git config --global user.name 'Your Name' `
 
-`$ git config --global user.name 'Your Name' `
+  `$ git config --global user.email 'Your@email.com'`
 
-`$ git config --global user.email 'Your@email.com'`
+  `$ git remote add origin https://github.com/GITHUB_USERNAME/my_new_repo.git`
 
-`$ git remote add origin https://github.com/GITHUB_USERNAME/my_new_repo.git`
+  At this point, your local directory will be able to push files into the repository just created.
 
-At this point, your local directory will be able to push files into the repository just created.
+  So, open your text editor (I'm using Atom).
 
-So, open your text editor (I'm using Atom).
+  Do whatever you need to do. In my case, I created a `.md` file, as I just wanted to post the solution to an exercise that I did in my [dataquest](http://dataquest.io) course, see [this repository](https://github.com/nahusznaj/dataquest_exercises).
 
-Do whatever you need to do. In my case, I created a `.md` file, as I just wanted to post the solution to an exercise that I did in my [dataquest](http://dataquest.io) course, see [this repository](https://github.com/nahusznaj/dataquest_exercises).
-
-So after you've created files and written whatever you wanted, go back to the git bash, and you want to add, commit, and push the changes. This will take the current files in the local directory (where you are editing, your laptop/PC) and put these files in the git repository. To do this:
+  So after you've created files and written whatever you wanted, go back to the git bash, and you want to add, commit, and push the changes. This will take the current files in the local directory (where you are editing, your laptop/PC) and put these files in the git repository. To do this:
 
 4. Run `$ git add .` This will add all the files in the current directory
 
