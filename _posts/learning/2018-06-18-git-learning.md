@@ -35,9 +35,9 @@ So, open your text editor (I'm using Atom).
 
 Do whatever you need to do. In my case, I created a `.md` file, as I just wanted to post the solution to an exercise that I did in my [dataquest](dataquest.io) course, see [this repository](https://github.com/nahusznaj/dataquest_exercises).
 
-So after you've created files and written whatever you wanted, go back to the git bash, and you want to add, commit, and push the changes. This will take the current files in the local directory (where you are editing, your laptop/PC) and put these files in the git repository.
+So after you've created files and written whatever you wanted, go back to the git bash, and you want to add, commit, and push the changes. This will take the current files in the local directory (where you are editing, your laptop/PC) and put these files in the git repository. To do this:
 
-`$ git add .` This will add all the files in the current directory
+4. Run `$ git add .` This will add all the files in the current directory
 
 `$ git commit -m 'a message describing what you are adding/changing'`
 
