@@ -2,7 +2,7 @@
 layout: article
 title: Some tricks I want to keep in mind II
 categories: learning
-modified: 2016-06-15T16:28:11-04:00
+modified: 2018-06-15T16:28:11-04:00
 tags: [python]
 comments: true
 share: true
