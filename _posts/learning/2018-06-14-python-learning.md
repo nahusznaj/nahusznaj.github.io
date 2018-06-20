@@ -48,6 +48,8 @@ Python starts counting from 0. So the first element of the list
 
 is `A[0] = 'a'`.
 
-The last element of `A` is `A[4] = 'e'`. If I wanted to use `len` to get the last element, I could try  `A[len(A)]`, but `len(A) = 5` and `A[5]` does not exist. If you call `A(len(A))` you will get the error `IndexError: list index out of range`. Instead, the correct way to get `'e'` would be `A[len(A) - 1]`.
+The last element of `A` is `A[4] = 'e'`. If I wanted to use `len` to get the last element, I could try  `A[len(A)]`, but `len(A) = 5` and `A[5]` does not exist. If you call `A[len(A)]` you will get a `IndexError: list index out of range` error. Instead, the correct way to obtain `'e'` would be `A[len(A) - 1]`.
 
-Now, to run through the elements of a list, you can use `list[start : end]`. But there's a trick: it will start at `start` and it will stop one place before `end`. So `list[start : end]` will give as output `{list[0], list[1], list[2], ... , list[end-1]}`. That is why, if you wanted to print out the first three elements of `A`, that is, `{0, 1, 2}` from `A`,  you should call `print(A[0:3])`. If you call `print(A[0:2])` you will get `'a', 'b'`, which is `{A[0], A[1]}`.
+Now, to run through the elements of a list (or to slice a list), you can use `list[start : end]`. But there's a trick: Python does not include the last element so it will start at `start` but it will stop one element before `end`. 
+
+Hence, `list[start : end]` will give as output `{list[start], list[start + 1], list[start + 2], ... , list[end-1]}`. For example, if you wanted to print out the first three elements of `A`, that is, `{0, 1, 2}` from `A`,  you should call `print(A[0:3])`. `A[0:3]` means `A[0], A[1], A[2]` and it does not include `A[3]` because Python does not take the last element of the range used in the slicing. So, if you call `print(A[0:2])` you will get `'a', 'b'`, which is `{A[0], A[1]}`.
