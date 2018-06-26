@@ -54,7 +54,7 @@ Now, to run through the elements of a list (or to slice a list), you can use `li
 
 Hence, `list[start : end]` will give as output the set `{list[start], list[start + 1], list[start + 2], ... , list[end-1]}`. For example, if you wanted to print out the first three elements of `A`, that is, `{0, 1, 2}`,  you should call `print(A[0:3])`. `A[0:3]` means `A[0], A[1], A[2]` and it does not include `A[3]` because Python does not take the last element of the range used in the slicing. So, if you call `print(A[0:2])` you will get `'a', 'b'`, which is `{A[0], A[1]}`.
 
-For more syntax on slicing lists, check out this (Stackoverflow question)[https://stackoverflow.com/a/509295/7746941]. There you'll find this reference:
+For more syntax on slicing lists, check out this [Stackoverflow question](https://stackoverflow.com/a/509295/7746941). There you'll find this reference:
 
 `a[start:end] # items start through end-1
 a[start:]    # items start through the rest of the array
