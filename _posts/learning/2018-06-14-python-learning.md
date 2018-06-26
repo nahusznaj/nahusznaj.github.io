@@ -56,13 +56,13 @@ Hence, `list[start : end]` will give as output the set `{list[start], list[start
 
 For more syntax on slicing lists, check out this [Stackoverflow question](https://stackoverflow.com/a/509295/7746941). There you'll find this reference:
 
-`a[start:end] # items start through end-1
+`a[start:end] # items start through end-1`
 
-a[start:]    # items start through the rest of the array
+`a[start:]    # items start through the rest of the array`
 
-a[:end]      # items from the beginning through end-1
+`a[:end]      # items from the beginning through end-1`
 
-a[:]         # a copy of the whole array`
+`a[:]         # a copy of the whole array`
 
 
 
