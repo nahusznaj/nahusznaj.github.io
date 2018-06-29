@@ -37,6 +37,16 @@ for row in rows:
     new_list.append(row.split(',')) #then separate each line by comma and append it to the new_list
 ```
 
+Another way is using `csv`. Say that you have data stored in a csv file, including a first row that has the names of the columns. You'd like to load that into a list that has only the data (not the header).
+
+```python
+import csv
+f = open("your_file.csv", 'r')
+csvreader = csv.reader(f)
+data_with_header = list(csvreader)
+data_no_header = data_with_header[1:]
+```
+
 There's more information in [Python's doc site](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 
 
