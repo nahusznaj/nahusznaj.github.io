@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Dataquest misssion 1
-categories: learning
+categories: portfolio
 modified: 2018-06-30T16:28:11-04:00
 tags: [python, dataquest]
 comments: true
