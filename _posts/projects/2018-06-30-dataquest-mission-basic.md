@@ -1,14 +1,13 @@
 ---
 layout: article
-title: Dataquest misssion 1
-categories: portfolio
-modified: 2018-06-30T16:28:11-04:00
+title: Dataquest Python mission 1
+categories: projects
+modified: 2016-06-30T16:28:11-04:00
 tags: [python, dataquest]
 comments: true
 share: true
 read_time: true
 ---
-
 
 ## Exploratory analysis of deaths in the USA 2012 - 2014
 
