@@ -16,6 +16,11 @@ read_time: true
 import matplotlib.pyplot as plt
 ```
 
+### Create a figure
+```python
+fig, ax = plt.subplots(figsize=(width,height)) #replace width and height by integers, e.g., 11, 8. Try to follow a x1.33 ratio.
+```
+
 ### Set the title to a specific `ax`
 
 ```python
@@ -39,6 +44,21 @@ plt.setp(ax, xticks=np.arange(lower_limit, upper_limit, step= steps))
 fig.subplots_adjust(hspace=0.35)
 ```
 
+## Example
+
+```python
+fig, ax = plt.subplots(figsize=(4,3))
+
+ax.set_title('Title', fontsize=14)
+plt.setp(ax.get_xticklabels(), fontsize=12)
+plt.setp(ax.get_yticklabels(), fontsize=12)
+plt.setp(ax, yticks=np.arange(0, 3, step= 0.5))
+plt.setp(ax, xticks=np.arange(0, 6, step= 2))
+plt.show()
+```
+Output
+
+![png](/images/2018-07-03-output_figure.png)
 
 ### Colours!
 
