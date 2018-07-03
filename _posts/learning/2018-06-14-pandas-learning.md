@@ -41,6 +41,15 @@ xl = pd.ExcelFile("file_name.xls")
 df = xl.parse("Sheet1") # Or the sheet that is appropriate
 ```
 
+
+### How to select all the rows that match the condition that a specific `Column` takes a specific `value`
+
+This returns a dataframe object, that we call `new_dataframe`
+```python
+new_dataframe = df[df["Column"] == 'Value']
+```
+`new_dataframe` is a Pandas dataframe and conserves the indexes from its parent dataframe.
+
 ### How to delete a `Column` from a dataframe
 
 ```python
@@ -53,7 +62,7 @@ df.drop('Column', axis = 1, inplace = True)
 np.where(pd.isnull(df['Column']))
 ```
 
-### How to set a `new value` of a `Column` cell in a specific `row_number`
+### How to update the cell at a specific `row_number` in a specific  `Column` to a `new value` 
 
 ```python
 df.iloc[row_number][Column] = 'new value'
