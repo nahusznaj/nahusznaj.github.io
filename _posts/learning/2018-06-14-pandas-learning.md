@@ -28,6 +28,11 @@ d = {
 df = pd.DataFrame(data=d)
 ```
 
+### How to read a `csv` file and create a dataframe:
+
+```python
+df = pd.read_csv("your_csv_file.csv")
+```
 
 ### How to import an Excel file and create a data-frame:
 
