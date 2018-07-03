@@ -47,8 +47,9 @@ fig.subplots_adjust(hspace=0.35)
 ## Example
 
 ```python
-fig, ax = plt.subplots(figsize=(4,3))
+import matplotlib.pyplot as plt
 
+fig, ax = plt.subplots(figsize=(4,3))
 ax.set_title('Title', fontsize=14)
 plt.setp(ax.get_xticklabels(), fontsize=12)
 plt.setp(ax.get_yticklabels(), fontsize=12)
@@ -56,7 +57,7 @@ plt.setp(ax, yticks=np.arange(0, 3, step= 0.5))
 plt.setp(ax, xticks=np.arange(0, 6, step= 2))
 plt.show()
 ```
-Output
+### Output:
 
 ![png](/images/2018-07-03-output_figure.png)
 
