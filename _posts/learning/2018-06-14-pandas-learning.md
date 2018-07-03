@@ -21,7 +21,7 @@ In this post I will upload things that I want to remember how to use. Most of it
 import pandas as pd
 
 d = {
-    'A' : ['1','2','3','4','5','6','7','7','7','7'],     
+    'A' : [1, 2, 3, 4, 5, 6, 7, 7, 7, 7],     
     'B' : ['a','b','c','d','e','f','g','h','h','h'],
     }
 
