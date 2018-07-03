@@ -3,7 +3,7 @@ layout: article
 title: Some tricks I want to keep in mind (Pandas)
 categories: learning
 modified: 2018-06-14T16:28:11-04:00
-tags: [python, pandas, matplotlib, seaborn]
+tags: [python, pandas]
 comments: true
 share: true
 read_time: true
