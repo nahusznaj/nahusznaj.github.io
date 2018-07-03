@@ -15,6 +15,19 @@ In this post I will upload things that I want to remember how to use. Most of it
 [StakOverflow](https://stackoverflow.com/questions/tagged/pandas).
 
 
+### How to define a dataframe from a dictionary:
+
+```python
+import pandas as pd
+
+d = {
+    'A' : ['1','2','3','4','5','6','7','7','7','7'],     
+    'B' : ['a','b','c','d','e','f','g','h','h','h'],
+    }
+
+df = pd.DataFrame(data=d)
+```
+
 
 ### How to import an Excel file and create a data-frame:
 
