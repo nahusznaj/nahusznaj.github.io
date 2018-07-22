@@ -10,4 +10,4 @@ read_time: true
 ---
 
 
-Find a Jupyter notebook with my answers in  https://github.com/nahusznaj/5_Guided_Project_Dataquest
+Find a Jupyter notebook with my answers in my github repo [Guided Project at Dataquest](https://github.com/nahusznaj/5_Guided_Project_Dataquest)
