@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Dataquest Python project
+title: Dataquest matplotlib guided project
 categories: projects
 modified: 2016-07-24T16:28:11-04:00
 tags: [python, matplotlib, dataquest]
