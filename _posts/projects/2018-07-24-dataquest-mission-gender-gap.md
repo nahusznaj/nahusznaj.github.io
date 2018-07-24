@@ -10,7 +10,7 @@ read_time: true
 ---
 
 
-Find a Jupyter notebook with my answers in my github repo [Guided_Project_Visualizing_Gender_Gap_College_Degrees](https://github.com/nahusznaj/Guided_Project_Visualizing_Gender_Gap_College_Degrees)
+Find a Jupyter notebook and the data for my project on [Visualizing_Gender_Gap_College_Degrees](https://github.com/nahusznaj/Guided_Project_Visualizing_Gender_Gap_College_Degrees) that I did in my [dataquest.io]() data science course
 
 You can find Dataquest's solution in their [repo]( https://github.com/dataquestio/solutions/blob/master/Mission149Solutions.ipynb)
 
