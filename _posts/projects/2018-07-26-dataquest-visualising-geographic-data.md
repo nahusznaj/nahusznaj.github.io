@@ -76,7 +76,7 @@ m.scatter(x, y, s = 1)
 plt.show()
 ```
 
-![png](/images/2018-07-26-image_1.png)
+![png](/images/2018-07-26-image_0.png)
 
 
 ## 7. Customizing The Plot Using Basemap ##
@@ -91,6 +91,8 @@ m.scatter(x, y, s=1)
 m.drawcoastlines()
 plt.show()
 ```
+![png](/images/2018-07-26-image_1.png)
+
 
 ## 8. Customizing The Plot Using Matplotlib ##
 
@@ -109,6 +111,7 @@ plt.show()
 ```
 
 
+
 ## 9. Introduction to Great Circles ##
 
 Let's use the routes dataset prepared by [dataquest.io]
@@ -118,6 +121,7 @@ geo_routes = pd.read_csv('geo_routes.csv')
 geo_routes.info()
 print(geo_routes.head(5))
 ```
+(I'm not showing the outputs now.)
 
 
 ## 10. Displaying Great Circles ##
@@ -139,14 +143,15 @@ def create_great_circles(dataframe):
             m.drawgreatcircle(row[1][4], row[1][6], row[1][5], row[1][7])
 ```
 
-The iterator iterrows gives a series, so taking row[1] selects the actual list of things that I want, since `row[0]` is the dataframe index. Once I have row[0] I can select the column that I want -- not by its name such as end_latitude, but as the column number because now it's an array and not a series.
+The iterator iterrows gives a series, so taking `row[1]` selects the actual list of things that I want, since `row[0]` is the dataframe index. Once I have `row[0]` I can select the column that I want -- not by its name such as `end_latitude`, but as the column number because now it's an array and not a series.
+
+Let's focus on the airport EZE (Ministro Pistarini International Airport, Argentina):
 
 ```python
-dfw = geo_routes[geo_routes['source']=='DFW']
-dfw_copy = dfw[0:1]
-dfw.head()
-#create_great_circles(dfw)
-#next(dfw_copy.iterrows())[1][4]
-#create_great_circles(dfw_copy)[1][6]- create_great_circles(dfw_copy)[1][4]
+dfw = geo_routes[geo_routes['source']=='EZE']
 create_great_circles(dfw)
 ```
+
+![png](/images/2018-07-26-image_EZE.png)
+
+
