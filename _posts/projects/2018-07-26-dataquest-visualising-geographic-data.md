@@ -132,7 +132,7 @@ Now the idea is to write a function, named create_great_circles() that draws a g
 And apply it for a specific airport.
 
 
-```pyton
+```python
 def create_great_circles(dataframe):
     for row in dataframe.iterrows():
         if (row[1][7] - row[1][6] < 180) & (abs(row[1][5] - row[1][4]) < 180):
