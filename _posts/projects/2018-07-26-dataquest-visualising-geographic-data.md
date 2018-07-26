@@ -9,10 +9,13 @@ share: true
 read_time: true
 ---
 
+This project is part of my learning experience with [Dataquest.io]() where I'm practising using basemap.
 
-```python
 ## 1. Geographic Data ##
 
+Let's load pandas and the datasets provided by [Dataquest.io]:
+
+```python
 import pandas as pd
 airlines = pd.read_csv("airlines.csv")
 airports = pd.read_csv("airports.csv")
@@ -28,6 +31,7 @@ print(airports.iloc[0])
 
 print(routes.iloc[0])
 ```
+(I'm not showing the outputs now.)
 
 
 ## 4. Workflow With Basemap
@@ -43,7 +47,7 @@ m = Basemap(projection='merc',
             urcrnrlon = 180)
 ```
 
-Check the parameters for [Basemap](https://matplotlib.org/basemap/api/basemap_api.html#mpl_toolkits.basemap.Basemap):
+You can check out the parameters for [Basemap](https://matplotlib.org/basemap/api/basemap_api.html#mpl_toolkits.basemap.Basemap):
 
 - `projection`: the map projection.
 - `llcrnrlat`: latitude of lower left hand corner of the desired map domain
@@ -107,7 +111,8 @@ plt.show()
 
 ## 9. Introduction to Great Circles ##
 
-Let's use the routes dataset prepared by dataquest.io
+Let's use the routes dataset prepared by [dataquest.io]
+
 ```python
 geo_routes = pd.read_csv('geo_routes.csv')
 geo_routes.info()
@@ -133,6 +138,7 @@ def create_great_circles(dataframe):
         if (row[1][7] - row[1][6] < 180) & (abs(row[1][5] - row[1][4]) < 180):
             m.drawgreatcircle(row[1][4], row[1][6], row[1][5], row[1][7])
 ```
+
 The iterator iterrows gives a series, so taking row[1] selects the actual list of things that I want, since `row[0]` is the dataframe index. Once I have row[0] I can select the column that I want -- not by its name such as end_latitude, but as the column number because now it's an array and not a series.
 
 ```python
