@@ -15,7 +15,7 @@ This project is part of my learning experience with [Dataquest.io]() where I'm p
 
 The datasets were obtained from [Openflights.org](https://openflights.org/data.html).
 
-Let's load pandas and the datasets provided by [Dataquest.io]:
+Let's load pandas and the datasets provided by [Dataquest.io]():
 
 ```python
 import pandas as pd
