@@ -11,7 +11,9 @@ read_time: true
 
 This project is part of my learning experience with [Dataquest.io]() where I'm practising using basemap.
 
-## 1. Geographic Data ##
+## 1. Geographic Data 
+
+The datasets were obtained from [Openflights.org](https://openflights.org/data.html).
 
 Let's load pandas and the datasets provided by [Dataquest.io]:
 
@@ -22,7 +24,7 @@ airports = pd.read_csv("airports.csv")
 routes = pd.read_csv("routes.csv")
 ```
 
-With this command I can print out the first row of each DataFrame
+With the following commands I can print out the first row of each DataFrame
 
 ```python
 print(airlines.iloc[0])
@@ -88,7 +90,8 @@ You can check out all of the parameters for [Basemap](https://matplotlib.org/bas
 - `llcrnrlon`: longitude of lower left hand corner of the desired map domain
 - `urcrnrlon`: longitude of upper right hand corner of the desired map domain
 
-## 5. Converting From Spherical to Cartesian Coordinates ##
+## 5. Converting From Spherical to Cartesian Coordinates 
+
 The constructor (`m`) takes only list values, so I can convert longitude and latitude columns from the airports dataframe to lists with `Series.tolist()`.
 
 ```python
@@ -110,7 +113,7 @@ plt.show()
 ![png](/images/2018-07-26-image_0.png)
 
 
-## 7. Customizing The Plot Using Basemap ##
+## 7. Customizing The Plot Using Basemap 
 
 We can add costal lines to the map:
 
@@ -126,7 +129,7 @@ plt.show()
 ![png](/images/2018-07-26-image_2.png)
 
 
-## 8. Customizing The Plot Using Matplotlib ##
+## 8. Customizing The Plot Using Matplotlib 
 
 We can add a title and change the size of the figure
 
@@ -145,7 +148,7 @@ plt.show()
 
 
 
-## 9. Introduction to Great Circles ##
+## 9. Introduction to Great Circles 
 
 [Dataquest.io]() have another dataset prepared to draw flight routes with [great circles](https://en.wikipedia.org/wiki/Great_circle). Great circles would be the route of a flight appropriately projected on the 2-dimensional map with the Mercator projection.
 
