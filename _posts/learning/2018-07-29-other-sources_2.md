@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Learning sources
+title: Resources
 categories: learning
 modified: 2018-07-29T16:28:11-04:00
 tags: [learning, resources]
@@ -13,6 +13,6 @@ read_time: true
 
 I haven't read these but I want to keep them around as reminders and reference.
 
- - Encodings http://kunststube.net/encoding/
- - resources for machine learning https://dziganto.github.io/resources/
- - regex https://www.regular-expressions.info/
+ - Post about encodings by [David C. Zentgraf](http://kunststube.net/encoding/)
+ - General resources for machine learning selected by [David Ziganto](https://dziganto.github.io/resources/)
+ - regex book by Jan Goyvaerts [https://www.regular-expressions.info/]()
