@@ -11,7 +11,7 @@ read_time: true
 
 ## Some sources I want to keep at hand:
 
-I haven't read these but I want to keep them around as reminders and reference.
+I want to keep these around for reference.
 
  - Post about encodings by [David C. Zentgraf](http://kunststube.net/encoding/)
  - General resources for machine learning selected by [David Ziganto](https://dziganto.github.io/resources/)
