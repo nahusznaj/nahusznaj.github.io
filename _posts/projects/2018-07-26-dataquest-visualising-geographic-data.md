@@ -197,7 +197,7 @@ def create_great_circles(dataframe):
 
 The iterator iterrows gives a series, so taking `row[1]` selects the actual list of things that I want, since `row[0]` is the dataframe index. Once I have `row[0]` I can select the column that I want -- not by its name such as `end_latitude`, but as the column number because now it's an array and not a series.
 
-It's a bit messier than the function that [dataquest.io]() presented as the answer, which is 
+My solution above is a bit messier than the function that [dataquest.io]() presented as the answer: 
 ```python 
 def create_great_circles(df):
     for index, row in df.iterrows():
@@ -209,7 +209,7 @@ def create_great_circles(df):
                 m.drawgreatcircle(start_lon, start_lat, end_lon, end_lat)
 ```
 
-But anyway, I used my function and chose the airport EZE (Ministro Pistarini International Airport, Argentina):
+But anyway, I used my function and chose EZE airport, Ministro Pistarini International Airport in Argentina:
 
 ```python
 dfw = geo_routes[geo_routes['source']=='EZE']
