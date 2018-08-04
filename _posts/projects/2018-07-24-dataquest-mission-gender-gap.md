@@ -2,7 +2,7 @@
 layout: article
 title: Dataquest matplotlib guided project
 categories: projects
-modified: 2016-07-24T16:28:11-04:00
+modified: 2018-07-24T16:28:11-04:00
 tags: [python, matplotlib, dataquest]
 comments: true
 share: true
