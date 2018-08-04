@@ -9,7 +9,6 @@ share: true
 read_time: true
 ---
 
-
 Today I have completed another stimulating project: [Exploration of SAT scores and schooling in NYC](https://github.com/nahusznaj/Dataquest_Mission217_SAT_scores_NYC/blob/master/Schools.ipynb)
 
 In this project I looked at SAT score performance for schools in NYC.
