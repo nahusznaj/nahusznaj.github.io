@@ -2,7 +2,7 @@
 layout: article
 title: Dataquest guided project: SAT Scores in NYC schools
 categories: projects
-modified: 2016-08-03T16:28:11-04:00
+modified: 2018-08-03T16:28:11-04:00
 tags: [python, dataquest]
 comments: true
 share: true
