@@ -2,7 +2,7 @@
 layout: article
 title: Dataquest Python mission 5
 categories: projects
-modified: 2016-07-22T16:28:11-04:00
+modified: 2018-07-22T16:28:11-04:00
 tags: [python, dataquest]
 comments: true
 share: true
