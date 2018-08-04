@@ -13,6 +13,6 @@ Today I have completed another stimulating project: [Exploration of SAT scores a
 
 In this project I looked at SAT score performance for schools in NYC.
 
-The project is part of [Dataquest.io](), Mission 217! You may find their solution at https://github.com/dataquestio/solutions/blob/master/Mission217Solutions.ipynb
+The project is part of [Dataquest.io](), Mission 217! You may find their solution [here](https://github.com/dataquestio/solutions/blob/master/Mission217Solutions.ipynb)
 
-The data is available online at https://data.cityofnewyork.us/Education/2012-SAT-Results/f9bf-2cp4
+The [data](https://data.cityofnewyork.us/Education/2012-SAT-Results/f9bf-2cp4) is available online. 
