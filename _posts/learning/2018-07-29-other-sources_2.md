@@ -9,6 +9,8 @@ share: true
 read_time: true
 ---
 
+``Shooting is only 20 percent of the course at the Army Sniper School.''
+
 ## Some sources I want to keep at hand:
 
 I want to keep these around for reference.
@@ -16,3 +18,5 @@ I want to keep these around for reference.
  - Post about encodings by [David C. Zentgraf](http://kunststube.net/encoding/)
  - General resources for machine learning selected by [David Ziganto](https://dziganto.github.io/resources/)
  - regex book by Jan Goyvaerts [https://www.regular-expressions.info/]()
+ 
+ 
