@@ -2,7 +2,7 @@
 layout: article
 title: Exploratory analysis of scholarships
 categories: projects
-modified: 2016-06-01T16:28:11-04:00
+modified: 2018-06-01T16:28:11-04:00
 tags: [python, pandas, matplotlib, seaborn]
 comments: true
 share: true
