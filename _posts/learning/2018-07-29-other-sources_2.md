@@ -9,7 +9,7 @@ share: true
 read_time: true
 ---
 
-``Shooting is only 20 percent of the course at the Army Sniper School.''
+"Shooting is only 20 percent of the course at the Army Sniper School."
 
 ## Some sources I want to keep at hand:
 
