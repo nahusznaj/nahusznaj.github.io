@@ -15,8 +15,8 @@ read_time: true
 
 I want to keep these around for reference.
 
- - Post about encodings by [David C. Zentgraf](http://kunststube.net/encoding/)
- - General resources for machine learning selected by [David Ziganto](https://dziganto.github.io/resources/)
- - regex book by Jan Goyvaerts [https://www.regular-expressions.info/]()
+ - Post about encodings by [Joel Spolsky](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/) and a related post by [David C. Zentgraf](http://kunststube.net/encoding/).
+ - General resources for machine learning selected by [David Ziganto](https://dziganto.github.io/resources/).
+ - regex book by Jan Goyvaerts [https://www.regular-expressions.info/]().
  
  
