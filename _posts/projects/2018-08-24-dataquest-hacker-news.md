@@ -2,7 +2,7 @@
 layout: article
 title: Hacker News project: working with scripts
 categories: projects
-modified: 2018-08-24T16:28:11-04:00
+modified: 2018-08-23T00:28:11-04:00
 tags: [python, dataquest]
 comments: true
 share: true
