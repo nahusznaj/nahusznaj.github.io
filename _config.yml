@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Nahuel Sznajderhaus"
   avatar           : "/assets/images/nahuel-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Physicist and philosopher learning data science."
+  bio              : "Physicist and philosopher doing data science."
   location         : "Dublin, Republic of Ireland"
   email            : "nsznaj@gmail.com"
   uri              :
