@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Dataquest matplotlib guided project
+title: Visualizing Gender Gap In College with Matplotlib
 categories: projects
 modified: 2018-07-24T16:28:11-04:00
 tags: [python, matplotlib, dataquest]
