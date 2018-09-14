@@ -2,7 +2,7 @@
 layout: article
 title: Analysing business with SQL
 categories: projects
-modified: 2018-09-15T00:28:11-04:00
+modified: 2018-09-14T00:28:11-04:00
 tags: [python, dataquest, sqlite]
 comments: true
 share: true
