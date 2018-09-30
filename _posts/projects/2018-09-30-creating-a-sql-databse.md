@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Creating a SQL database 
+title: Creating a database with SQL and Python
 categories: projects
 modified: 2018-09-30T00:28:11-04:00
 tags: [python, dataquest, sqlite, database]
@@ -9,9 +9,6 @@ share: true
 read_time: true
 
 ---
-
-
-# Creating a database with SQL and Python
 
 This is a project part of my dataquest.io course, you can find their solution to this project [Dataquest.io's solution](https://github.com/dataquestio/solutions/blob/master/Mission193Solutions.ipynb).
 
