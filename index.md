@@ -4,7 +4,6 @@ description: "Home"
 share: false
 comments: false
 ---
-## Bio
 
 I graduated in physics from the University of Buenos Aires, in Argentina. This degree in physics is similar to a combined European BSc and MSc.
 
