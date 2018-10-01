@@ -11,7 +11,7 @@ read_time: true
 
 I tend to internalise what I learn when I am able to write it down or explain it to someone else.
 
-I recently learned how to create/clone/download/edit repositories in git/github. I'm no expert. So I want to have this written down for a while.
+I learned how to create/clone/download/edit repositories in git/github. I'm no expert so I want to have this written down for my own reference.
 
 
 1. Create a new repository on github, say named `my_new_repo`
@@ -32,19 +32,21 @@ I recently learned how to create/clone/download/edit repositories in git/github.
 
   So, open your text editor (I'm using Atom).
 
-  Do whatever you need to do. In my case, I created a `.md` file, as I just wanted to post the solution to an exercise that I did in my [dataquest](http://dataquest.io) course, see [this repository](https://github.com/nahusznaj/dataquest_exercises).
+  Let's creat a markdown file file to have something to push into the repo.
 
-  So after you've created files and written whatever you wanted, go back to the git bash, and you want to add, commit, and push the changes. This will take the current files in the local directory (where you are editing, your laptop/PC) and put these files in the git repository. To do this:
+  Go back to the git bash. You want to `add`, `commit`, and then `push` the changes (the creation of the file). This process will take the current files in the local directory (where you are editing, your laptop/PC) into the git repository. To do this three steps:
 
-4. Run `$ git add .` This will add all the files in the current directory
+4. Run `$ git add .` This will add all the files in the current directory. (There are commands to select specific files, but I now want this to be simple and quick.)
 
 `$ git commit -m 'a message describing what you are adding/changing'`
 
 `$ git push -u origin master` This command will push the files just commited into the git repository at github that this local folder was instructed, by the git bash, to connect with. This was done when we run `$ git remote add origin https://github.com/GITHUB_USERNAME/my_new_repo.git` a few lines earlier.
 
-So that's it. Then you can go to your browser and check that the files are actually there.
+So that's it. Then you can go to your browser and check that the files are actually there in the repo `my_new_repo`.
 
 I learned how to do this watching this video on youtube: [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc).
+
+Another very useful source for learning these instructions is dataquest: https://www.dataquest.io/blog/how-to-share-data-science-portfolio/
 
 
 
