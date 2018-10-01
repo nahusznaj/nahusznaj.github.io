@@ -1,5 +1,6 @@
 ---
 layout: single
+title: Bio
 description: "Home"
 share: false
 comments: false
