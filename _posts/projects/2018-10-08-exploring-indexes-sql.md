@@ -14,11 +14,17 @@ This project explores indexes with SQL and it is part of my course at dataquest.
 In this project I will explore indexing. I will work with `factbook.db`, a SQLite database that contains information about each country in the world. I'll be working with the facts table in the database. Each row in facts represents a single country, and contains several columns, including:
 
 `name` -- the name of the country.
+
 `area` -- the total land and sea area of the country.
+
 `population` -- the population of the country.
+
 `birth_rate` -- the birth rate of the country.
+
 `created_at` -- the date the record was created.
+
 `updated_at` -- the date the record was updated.
+
 
 Let's import sqlite and load the database.
 
@@ -28,6 +34,8 @@ IN
 import sqlite3
 conn = sqlite3.connect("factbook.db")
 ```
+which, if you have the file `factbook.db` in the same directory where you are running python, won't give any output.
+
 
 Now, let's have a quick look at the first two rows of `facts` table:
 
