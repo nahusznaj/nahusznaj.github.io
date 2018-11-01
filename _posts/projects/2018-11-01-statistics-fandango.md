@@ -20,4 +20,3 @@ This is part of my [dataquest.io]() course in data science!
 Feel free to get in touch and discuss further analysis!
 
 
-pip install -U textblob	(for sentiment analysis)
