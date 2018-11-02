@@ -11,7 +11,7 @@ read_time: true
 ---
 
 
-In this project I put into practice fundamental statistical concepts into a nice little project.
+I put into practise fundamental statistical concepts with a nice dataset on film reviews.
 
 Find my Jupyter notebook with the project in my [repo](https://github.com/nahusznaj/statistics_basic_fandango_films). Also, find a solution provided by dataquest.io in this [notebook](https://github.com/dataquestio/solutions/blob/master/Mission191Solutions.ipynb).
 
