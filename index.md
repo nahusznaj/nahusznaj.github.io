@@ -6,12 +6,11 @@ share: false
 comments: false
 ---
 
-Since 01/2019, I've been working at Twilio in the Developer Technical Support team.
+I graduated in physics from the University of Buenos Aires, in Argentina. This course in physics is a similar qualification to a combined BSc and MSc from the EU.
 
-I graduated in physics from the University of Buenos Aires, in Argentina. This degree in physics is similar to a combined BSc and MSc.
+I completed a PhD in Philosophy of Science at the University of Leeds, in the UK, in January 2017. My thesis was on foundational issues relating to realist interpretations of quantum mechanics. Then, I was a postdoc researcher at the National University of Ireland Galway, in Ireland, during 2017-2018. After this period, I decided to make a career change.
 
-I did a PhD in Philosophy of Science at the University of Leeds, in the UK. My thesis was on foundational issues relating to realist interpretations of quantum mechanics.
+I worked in Twilio in the amazing team of Technical Support. Now I'm working in an even more awesom organization, at ASAPP.com. 
 
-I was a postdoc researcher at the National University of Ireland Galway. 
 
 I made this page with [minimal_mistakes](https://mmistakes.github.io/minimal-mistakes/).
