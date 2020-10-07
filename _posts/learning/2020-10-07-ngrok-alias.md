@@ -52,4 +52,4 @@ Then source the file:
 ```
 Then you're good to go.
 
-Type `ngrok http 3000` to open a tunnel on port 3000 from your localhost. Or any other ngrok command. See https://ngrok.com/docs.
+Type `ngrok http 3000` to open a tunnel on port 3000 from your localhost. Or any other ngrok command. See (ngrok docs)[https://ngrok.com/docs].
