@@ -22,8 +22,8 @@ def foo():
     print("incoming request headers: \n")
     print(request.headers)
     print("incoming request json payload: \n")
-    maybe = request.get_json()
-    print(pprint.pprint(maybe))
+    json_payload = request.get_json()
+    print(pprint.pprint(json_payload))
     return '', 200
 
 
