@@ -11,7 +11,7 @@ read_time: true
 
 I'm building an integration between two services and wanted to know what was being sent. This simple flask app allowed me to check the payload. Run this, and then open a ngrok tunnel connected to port 5000. You'll have a live incoming webhook app!
 
-```
+```python
 from flask import Flask, request
 import pprint
 

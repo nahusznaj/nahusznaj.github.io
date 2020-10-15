@@ -35,14 +35,14 @@ Let's do this.
 
 Open a terminal and in your home folder open the `.bash_profile` file, you can use `nano`:
 
-```
+```bash
 ~$ nano .bash_profile
 ```
 
 Add the following line to your bash profile:
 
 
-```
+```bash
 ## ngrok alias
 alias ngrok='cd ~/Downloads/ && ./ngrok'
 ```
@@ -50,7 +50,7 @@ alias ngrok='cd ~/Downloads/ && ./ngrok'
 and save it (if you are using nano, hit `control+X` and then `Y`).
 
 Then, source the file:
-```
+```bash
 ~$ source .bash_profile
 ```
 You're good to go! To test, go adhead and type `ngrok http 3000` to open a tunnel on port 3000 from your localhost. Or any other ngrok command. See (ngrok docs)[https://ngrok.com/docs].
