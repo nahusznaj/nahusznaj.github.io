@@ -10,7 +10,7 @@ share: true
 
 I needed to convert many images to another format, and also change their size.
 
-Here's a page that I found really [cool sips tips page](https://robservatory.com/use-sips-to-quickly-easily-and-freely-convert-image-files/). And I used that to convert my HEIC images to jpg images.
+Here's a page that I found really [cool sips tips page](https://robservatory.com/use-sips-to-quickly-easily-and-freely-convert-image-files/). And I used that to convert my HEIC images to jpg images. Other helpful pages: [1](https://www.brighthub.com/computing/mac-platform/articles/58686/), [2](https://medium.com/@armno/til-convert-a-png-to-a-jpg-with-sips-baab5d7ced0f).
 
 Say that I have the `IMG_2911.jpg` image and I want to have this as `.png`. From a terminal in that folder, do:
 
