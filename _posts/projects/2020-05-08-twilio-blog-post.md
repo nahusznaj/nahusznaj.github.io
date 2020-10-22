@@ -1,9 +1,9 @@
 ---
 layout: article
 title: Using Twilio's Debugger with Flask
-categories: learning
-modified: 2020-05-10T16:28:11-04:00
-tags: [twilio, python]
+categories: projects
+modified: 2018-06-01T16:28:11-04:00
+tags: [python, twilio]
 comments: true
 share: true
 read_time: true
