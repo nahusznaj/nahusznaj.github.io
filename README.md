@@ -1,5 +1,3 @@
 # nahusznaj.github.io
 
-My personal website with minimal-mistakes!
-
-These are the files for my website made with minimal-mistakes, nahusznaj.github.io
+These are the files for my personal website <nahusznaj.github.io> made with minimal-mistakes.
