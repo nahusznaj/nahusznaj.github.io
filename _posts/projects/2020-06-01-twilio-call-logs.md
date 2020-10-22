@@ -1,9 +1,9 @@
 ---
 layout: article
-title: How to count number of calls in Twilio
-categories: learning
-modified: 2020-07-01T16:28:11-04:00
-tags: [twilio, python]
+title: Exploratory analysis of scholarships
+categories: projects
+modified: 2018-06-01T16:28:11-04:00
+tags: [python, pandas, matplotlib, seaborn]
 comments: true
 share: true
 read_time: true
