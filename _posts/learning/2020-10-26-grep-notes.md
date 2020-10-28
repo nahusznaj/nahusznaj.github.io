@@ -35,4 +35,4 @@ The filename in this case is every file in the folder and sub-folders.
 Finally, `>` is an extra that I added in order to write the output in a file, instead of returning it as standard output. For reference <https://askubuntu.com/a/420983>.
 
 
-I used this as reference:  "A Beginner’s Guide To Grep: Basics And Regular Expressions" in <https://www.opensourceforu.com/2012/06/beginners-guide-gnu-grep-basics/>.
+I used this as reference:  "A Beginner’s Guide To Grep: Basics And Regular Expressions" in <https://www.opensourceforu.com/2012/06/beginners-guide-gnu-grep-basics/>. Also, see <https://www.howtoforge.com/tutorial/linux-grep-command/>.
