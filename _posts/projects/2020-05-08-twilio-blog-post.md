@@ -10,4 +10,4 @@ read_time: true
 ---
 
 
-I published a post in Twilio's blog! It shows how to use Flask to have an app to store your debugger events from Twilio. Check it out: https://www.twilio.com/blog/handle-twilio-debugger-events-python-flask
+I published a post in Twilio's blog! It shows how to use Flask to have an app to store your debugger events from Twilio. Check it out: <https://www.twilio.com/blog/handle-twilio-debugger-events-python-flask>.
