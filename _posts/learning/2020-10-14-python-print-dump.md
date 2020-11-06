@@ -44,7 +44,7 @@ if __name__ == "__main__":
 To do this more "real" let's open a tunnel via ngrok on port 5000. Then, from Postman or curl, you can POST to this endpoint with some json data:
 
 ```bash
-~$ curl --location --request POST 'https://41a343baa0be.ngrok.io' \
+~$ curl --location --request POST 'https://{ngrokSubdomain}.ngrok.io' \
 --header 'Content-Type: application/json' \
 --data-raw '{"json":"data", "more":"info"}'
 ```
@@ -61,18 +61,18 @@ $ python3 events.py
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 917-572-643
+ * Debugger PIN: 917-572-642
 incoming request headers: 
 
 Content-Type: application/json
 User-Agent: PostmanRuntime/7.26.5
 Accept: */*
-Postman-Token: fabb1b81-fa4f-4829-bc1e-30321f453882
-Host: 41a343baa0be.ngrok.io
+Postman-Token: fabb1b81-fa4f-4829-bc1e-30321---
+Host: {ngrokSubdomain}.ngrok.io
 Accept-Encoding: gzip, deflate, br
 Content-Length: 30
 X-Forwarded-Proto: https
-X-Forwarded-For: 3.93.254.153
+X-Forwarded-For: 3.93.254.1--
 
 
 incoming request json payload: 
